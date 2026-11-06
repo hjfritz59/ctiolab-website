@@ -180,3 +180,42 @@ section.soft { background: var(--bg-soft); }
   .hero { padding-top: 48px; }
   .hero-shot { margin-top: 36px; }
 }
+
+/* Product bar (app section navigation, under the company header) */
+.product-bar { background: #fff; border-bottom: 1px solid var(--line); }
+.product-bar .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 60px; flex-wrap: wrap; padding-top: 8px; padding-bottom: 8px; }
+.product-brand { display: flex; align-items: center; gap: 10px; color: var(--ink); font-weight: 700; font-size: 17px; }
+.product-brand:hover { text-decoration: none; }
+.product-brand img { height: 34px; width: auto; }
+.product-nav { display: flex; align-items: center; gap: 22px; flex-wrap: wrap; }
+.product-nav a { color: var(--muted); font-weight: 500; font-size: 15px; }
+.product-nav a:hover, .product-nav a[aria-current="page"] { color: var(--ink); text-decoration: none; }
+.product-nav .btn { color: #fff; }
+.product-nav .btn:hover { color: #fff; }
+
+/* Company home */
+.company-hero { padding-bottom: 72px; }
+.app-card { display: flex; flex-direction: column; padding: 28px; }
+.app-card > img { height: 48px; width: auto; align-self: flex-start; }
+.app-card h3 { font-size: 22px; margin: 6px 0 8px; }
+.app-card > p { color: var(--muted); }
+.app-card .checks { margin: 14px 0 0; }
+.app-card .actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: auto; padding-top: 22px; }
+.app-status { display: inline-block; align-self: flex-start; margin: 16px 0 0; font-size: 12px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; color: var(--muted); background: var(--bg-soft); border: 1px solid var(--line); padding: 3px 10px; border-radius: 999px; }
+.app-status.live { color: #0f7a3d; background: #e9f8ef; border-color: #c4ebd3; }
+.app-card.soon { background: var(--bg-soft); }
+.app-mark { width: 48px; height: 48px; border-radius: 12px; display: grid; place-items: center; background: var(--navy); color: #fff; font-weight: 700; font-size: 22px; }
+.site-footer .cols { grid-template-columns: 1.4fr 1fr 1fr 1fr; }
+@media (max-width: 760px) {
+  .product-nav { gap: 14px; width: 100%; }
+  .product-nav .btn { margin-left: auto; }
+}
+.company-hero h1 { white-space: normal; max-width: 900px; }
+.app-card > img { height: 58px; }
+.app-card.soon .actions { margin-top: 22px; }
+@media (max-width: 760px) {
+  .product-bar .wrap { flex-direction: column; align-items: flex-start; gap: 8px; }
+  .product-nav { flex-wrap: nowrap; overflow-x: auto; width: 100%; padding-bottom: 4px; gap: 18px; }
+  .product-nav a { white-space: nowrap; }
+  .product-nav .btn { display: none; }
+}

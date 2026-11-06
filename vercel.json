@@ -2,7 +2,35 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "redirects": [
-    { "source": "/legal/privacy.html", "destination": "/privacy", "permanent": true },
-    { "source": "/legal/terms.html", "destination": "/terms", "permanent": true }
+    {
+      "source": "/pricing",
+      "destination": "/inventory/pricing",
+      "permanent": false
+    },
+    {
+      "source": "/guide",
+      "destination": "/inventory/guide",
+      "permanent": false
+    },
+    {
+      "source": "/privacy",
+      "destination": "/inventory/privacy",
+      "permanent": false
+    },
+    {
+      "source": "/terms",
+      "destination": "/inventory/terms",
+      "permanent": false
+    },
+    {
+      "source": "/legal/privacy.html",
+      "destination": "/inventory/privacy",
+      "permanent": false
+    },
+    {
+      "source": "/legal/terms.html",
+      "destination": "/inventory/terms",
+      "permanent": false
+    }
   ]
 }

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://ctiolab.com/</loc></url>
-  <url><loc>https://ctiolab.com/pricing</loc></url>
-  <url><loc>https://ctiolab.com/guide</loc></url>
+  <url><loc>https://ctiolab.com/inventory</loc></url>
+  <url><loc>https://ctiolab.com/inventory/pricing</loc></url>
+  <url><loc>https://ctiolab.com/inventory/guide</loc></url>
   <url><loc>https://ctiolab.com/support</loc></url>
-  <url><loc>https://ctiolab.com/privacy</loc></url>
-  <url><loc>https://ctiolab.com/terms</loc></url>
+  <url><loc>https://ctiolab.com/inventory/privacy</loc></url>
+  <url><loc>https://ctiolab.com/inventory/terms</loc></url>
 </urlset>
