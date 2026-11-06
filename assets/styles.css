@@ -29,7 +29,7 @@ a:hover { text-decoration: underline; }
 /* Header */
 .site-header { background: var(--navy); position: sticky; top: 0; z-index: 10; }
 .site-header .wrap { display: flex; align-items: center; justify-content: space-between; height: 68px; gap: 16px; }
-.brand img { height: 40px; width: auto; }
+.brand img { height: 30px; width: auto; }
 .nav { display: flex; align-items: center; gap: 26px; }
 .nav a { color: #d6def0; font-weight: 500; font-size: 15px; }
 .nav a:hover, .nav a[aria-current="page"] { color: #fff; text-decoration: none; }
@@ -156,7 +156,7 @@ section.soft { background: var(--bg-soft); }
 /* Footer */
 .site-footer { background: #081533; color: #aab6d3; padding: 48px 0 32px; font-size: 14px; }
 .site-footer .cols { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 32px; }
-.site-footer img { height: 36px; width: auto; margin-bottom: 12px; }
+.site-footer img { height: 26px; width: auto; margin-bottom: 14px; }
 .site-footer h4 { color: #fff; margin: 0 0 10px; font-size: 14px; }
 .site-footer a { color: #cfd9ee; }
 .site-footer ul { list-style: none; padding: 0; margin: 0; }

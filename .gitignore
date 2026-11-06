@@ -6,3 +6,5 @@ assets/video/
 *.psd
 # Original upload of the guide (published copy is assets/docs/ctiolab-ims-user-guide.pdf)
 assets/document/
+# Full-size logo master (the site uses assets/img/ctiolab-logo.png)
+assets/img/CTIOLAB Logo.png
