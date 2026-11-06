@@ -1,0 +1,8 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    { "source": "/legal/privacy.html", "destination": "/privacy", "permanent": true },
+    { "source": "/legal/terms.html", "destination": "/terms", "permanent": true }
+  ]
+}

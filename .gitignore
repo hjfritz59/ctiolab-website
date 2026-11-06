@@ -1,0 +1,8 @@
+# Videos are embedded from YouTube; keep the files out of the repository
+assets/video/
+*.mp4
+*.mov
+# Design source files
+*.psd
+# Original upload of the guide (published copy is assets/docs/ctiolab-ims-user-guide.pdf)
+assets/document/
